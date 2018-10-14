@@ -52,10 +52,13 @@ const erase = {
   }
 }
 
+module.exports = erase;
 
-console.log('asd');
-setTimeout(() => {
-    //console.log(erase.lines(2));
-    // 删除当前一行、光标移到上一行、删除上一行
-    console.log(`${ESC}2K${ESC}1A${ESC}2K`);
-}, 1000);
+
+// 示例删除行
+// console.log('asd');
+// setTimeout(() => {
+//     //console.log(erase.lines(2));
+//     // 删除当前一行、光标移到上一行、删除上一行
+//     console.log(`${ESC}2K${ESC}1A${ESC}2K`);
+// }, 1000);
