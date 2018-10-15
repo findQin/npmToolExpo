@@ -1,11 +1,14 @@
-
+/**
+ * 实现prompt中输入项目名的效果
+ * - 基于readline的question来实现问答
+ * - 基于ANSI转义序列实现提示擦除与项目名输入
+ */
 const readline = require('readline');
 
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
-
 
 // 方式1：使用readline包含的提问信息
 // rl.question('项目名称?', (answer) => {

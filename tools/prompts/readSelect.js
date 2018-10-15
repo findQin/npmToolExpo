@@ -1,3 +1,9 @@
+/**
+ * 实现prompt中多选的效果
+ * - 反复删除和输出实现刷新
+ * - 处理向上、向下、空格、回车事件
+ */
+
 // 配置输入输出
 const readline = require('readline');
 const rl = readline.createInterface({
@@ -7,8 +13,6 @@ const rl = readline.createInterface({
 const { stdin, stdout} = process;
 // 引入删除行
 const erase = require('./removeLine');
-
-
 
 
 // 设置选项初始化

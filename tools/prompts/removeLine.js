@@ -63,3 +63,7 @@ module.exports = erase;
 //     // 删除当前一行、光标移到上一行、删除上一行
 //     console.log(`${ESC}2K${ESC}1A${ESC}2K`);
 // }, 1000);
+
+
+// ANSI转义序列
+// https://zh.wikipedia.org/wiki/ANSI%E8%BD%AC%E4%B9%89%E5%BA%8F%E5%88%97
